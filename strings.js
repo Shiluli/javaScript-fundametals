@@ -54,3 +54,20 @@ console.log(index);
 // \\  - backslash
 let myName ="Shiluli\nAdulu"
 console.log(myName);
+
+//template literals
+let totals =  `we are ${20}`;
+console.log(totals);
+
+let cohort1 = 15;
+let cohort2 = 20;
+let femidevs = `We are ${cohort1+cohort2} in total`;
+console.log(femidevs);
+
+let drinks = "Soda";
+let quantity = 2;
+let price = 970;
+// we bought 2 crates soda @1940
+let crates = `We bought 2 crates of ${drinks} @ Ksh ${quantity *price}`;
+console.log(crates);
+
