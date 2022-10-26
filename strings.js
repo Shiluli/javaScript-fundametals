@@ -2,7 +2,7 @@ let animal = "dog";
 console.log(animal.length);
 // access individual characters in a string
 console.log(animal[0])
-// string method
+// string method - changes the case 
 let msg = "I am king";
  let yellMsg = msg.toUpperCase(); // I AM KING
 console.log(yellMsg);
@@ -10,7 +10,7 @@ let angry = "LeaVE Me aLoNe";
 let lowAngry = angry.toLowerCase(); // leave me alone
 console.log(lowAngry);
 
-//trim method
+//trim method -removes trailing and leading white spaces
 let greeting = "  leave me alone plz  ";
 console.log(greeting);
 let tGreeting = greeting.trim();
@@ -55,7 +55,7 @@ console.log(index);
 let myName ="Shiluli\nAdulu"
 console.log(myName);
 
-//template literals
+//template literals - allow for embedding of expressions
 let totals =  `we are ${20}`;
 console.log(totals);
 
@@ -70,4 +70,9 @@ let price = 970;
 // we bought 2 crates soda @1940
 let crates = `We bought 2 crates of ${drinks} @ Ksh ${quantity *price}`;
 console.log(crates);
+
+
+
+
+
 

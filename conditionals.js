@@ -1,10 +1,11 @@
 //If
 let rating = 3;   //declare a variable and give it value 
 if (rating===3){
-    console.log("That is the right rating");
+    console.log("That is the right rating"); 
 };
 
 //Else if 
+// 
 let answer = 2;   //declare a variable and give it value 
 if (answer===2){
     console.log("That is the right answer");
@@ -14,33 +15,55 @@ else if (answer ===3){
 };
 
 //Multiple else ifs
-let days = 8;
-if (days ===1){
-    console.log("Sunday");
-}
-else if( days===2){
-    console.log("Monday");
-}
-else if( days===3){
-    console.log("Tuesday");
-}
-else if( days===4){
-    console.log("Wednesday");
-}
-else if( days===5){
-    console.log("Thursday");
-}
-else if( days===6){
-    console.log("Friday");
-}
-else if( days===7){
-    console.log("Saturday");
-}
+// we can use use the switch statement 
+let days = 5;
+switch (days) {
+    case 1:console.log("Sunday");
+    break;
+    case 2:console.log("Monday");
+    break;
+    case 3:console.log("Tuesday");
+    break;
+    case 4:console.log("Wedsday");
+    break;
+    case 5:console.log("Thursday");
+    break;
+    case 6:console.log("Friday");
+    break;
+    case 7:console.log("Saturday");
+    break;
+
+    default:console.log(Invalid); //if condition does not meet
+    break;
+};
+
+// if (days ===1){
+//     console.log("Sunday");
+// }
+// else if( days===2){
+//     console.log("Monday");
+// }
+// else if( days===3){
+//     console.log("Tuesday");
+// }
+// else if( days===4){
+//     console.log("Wednesday");
+// }
+// else if( days===5){
+//     console.log("Thursday");
+// }
+// else if( days===6){
+//     console.log("Friday");
+// }
+// else if( days===7){
+//     console.log("Saturday");
+// }
 
 //Else
-else {
-    console.log("Not a valid day");
-};
+//else {
+//   console.log("Not a valid day");
+//};
+
 //      QUIZ
 //Declare password variable and give it a value 
 //use if statements to ;
@@ -84,9 +107,12 @@ else {
 let javaScript = "easy";
 javaScript === "easy" ? console.log("Okay") :console.log("Not true");
 
-
-
-
-
-
-
+let newPerson = "khjkjjhh";
+let name = newPerson === "femidevs" ? "Real Name" : "Wrong Name";
+console.log(name);
+// if (newPerson === "femidevs") {
+  //  console.log("Real Name")
+//}
+//else {
+ //   console.log("Wrong Name");
+//}
