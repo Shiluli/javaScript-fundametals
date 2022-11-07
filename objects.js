@@ -57,6 +57,7 @@ const person = {
 
 person.gender = "female";  // adding property 
 console.log(person.age); // accessing age in objects ...we use custom keys
+person.age;
 person ["city"] = "Eldoret"  // adding a property 
    //
 const bothCohorts = `The total number of the two cohorts is : ${person.cohorts.cohortOne +person.cohorts.cohortTwo}!`;
