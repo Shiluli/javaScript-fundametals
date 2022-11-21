@@ -12,7 +12,7 @@ madlib( 'brown', 'fox', 'jumped', 'swiftly');
 // call 3 functions with different sentence 
 
 function madlib(adjective, noun, verb, adverb) {  
-    return `The ${adjective} ${noun} ${verb} ${adverb}.`;
+    return `The ${adjective} ${noun} ${verb} ${adverb}.`
 };
 let mad1 = madlib('lazy', 'cat', 'walked', 'majestically');
 console.log(mad1);
